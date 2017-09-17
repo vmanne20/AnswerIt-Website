@@ -1,0 +1,90 @@
+	.button {
+        display:inline-block;
+        height:50px;
+        width:200px;
+        background:#0C12FF;
+        border: 2px solid;
+        
+        text-align: center;
+        color: #FFFFFF;
+  	   font: bold 1.6em/50px "Helvetica Neue", Arial,Helvetica, Geneva, sans-serif, #FFFFFF;
+  	   
+  	   background: linear-gradient(top, #FF0F01, #EC0402);
+        border-radius: 50px;
+        box-shadow: 0 2px 0 #000000;
+        text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    }
+    .easybutton {
+        display:inline-block;
+        height:50px;
+        width:150px;
+        background:#1AE00E;
+        border: 2px solid;
+        
+        text-align: center;
+        color: #FFFFFF;
+  	   font: bold 1.6em/50px "Helvetica Neue", Arial,Helvetica, Geneva, sans-serif, #FFFFFF;
+  	   
+  	   background: linear-gradient(top, #FF0F01, #EC0402);
+        border-radius: 50px;
+        box-shadow: 0 2px 0 #000000;
+        text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    }
+    .medbutton {
+        display:inline-block;
+        height:50px;
+        width:150px;
+        background:#FFA500;
+        border: 2px solid;
+        
+        text-align: center;
+        color: #FFFFFF;
+  	   font: bold 1.6em/50px "Helvetica Neue", Arial,Helvetica, Geneva, sans-serif, #FFFFFF;
+  	   
+  	   background: linear-gradient(top, #FF0F01, #EC0402);
+        border-radius: 50px;
+        box-shadow: 0 2px 0 #000000;
+        text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    }
+    .hardbutton {
+        display:inline-block;
+        height:50px;
+        width:150px;
+        background:#E40622;
+        border: 2px solid;
+        
+        text-align: center;
+        color: #FFFFFF;
+  	   font: bold 1.6em/50px "Helvetica Neue", Arial,Helvetica, Geneva, sans-serif, #FFFFFF;
+  	   
+  	   background: linear-gradient(top, #FF0F01, #EC0402);
+        border-radius: 50px;
+        box-shadow: 0 2px 0 #000000;
+        text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+    }
+    .button:hover {
+        background: #0050FD;
+    }
+    .easybutton:hover {
+        background: #0AE829;
+    }
+    .medbutton:hover {
+        background: #FF9807;
+    }
+    .hardbutton:hover {
+        background: #FF001C;
+    }
+    .button: active {
+		box-shadow: inset 0 0 0 5px #3071A9;
+    }
+    
+    .glow input[type="text"] {
+         padding: 10px;
+         border: solid 1px #dcdcdc;
+         transition: box-shadow 0.3s, border 0.3s;
+    }
+    .glow input[type="text"]:focus, .style-1 input[type="text"].focus {
+         border: solid 1px #707070;
+         box-shadow: 0 0 5px 1px #454545;
+    }
+}
